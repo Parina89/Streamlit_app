@@ -1,8 +1,8 @@
-# Import the required libraries: Streamlit, NumPy, and Pillow (PIL).
 import streamlit as st
 import pickle
 import numpy as np
 from PIL import Image
+import pandas as pd  # Added missing import for pandas
 
 # Set the page configuration of the app, including the page title, icon, and layout.
 st.set_page_config(page_title="Timelytics Forecasting App", page_icon="📦", layout="centered")
