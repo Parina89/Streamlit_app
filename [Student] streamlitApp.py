@@ -22,7 +22,7 @@ st.caption(
 
 
 # Load the trained ensemble model from the saved pickle file.
-modelfile = "./voting_model.pkl"
+modelfile = "C:\Users\Haha CORPORATION\OneDrive\Desktop\Dependencies\voting_model.pkl"
 """
 Your Code Here
 """
