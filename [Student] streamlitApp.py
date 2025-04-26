@@ -22,13 +22,7 @@ st.caption(
 # Load the trained ensemble model from the saved pickle file.
 modelfile = "voting_model.pkl"
 
-@st.cache_resource
-def load_model():
-    with open(modelfile, "rb") as file:
-        loaded_model = pickle.load(file)
-    return loaded_model
 
-voting_model = load_model()
 
 # Define the function for the wait time predictor using the loaded model.
 def waitime_predictor(
