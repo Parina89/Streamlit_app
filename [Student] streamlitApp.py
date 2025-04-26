@@ -20,7 +20,7 @@ st.caption(
 
 
 # Load the trained ensemble model from the saved pickle file.
-modelfile = "C:/Users/Haha CORPORATION/OneDrive/Desktop/Dependencies/voting_model.pkl"
+modelfile = "voting_model.pkl"
 
 @st.cache_resource
 def load_model():
@@ -61,7 +61,7 @@ def waitime_predictor(
 
 # Define the input parameters using Streamlit's sidebar.
 with st.sidebar:
-    img = Image.open("C:/Users/Haha CORPORATION/OneDrive/Desktop/Dependencies/assets/supply_chain_optimisation.jpg")
+    img = Image.open("/assets/supply_chain_optimisation.jpg")
     st.image(img, use_column_width=True)
     st.header("Input Parameters")
     purchase_dow = st.number_input(
